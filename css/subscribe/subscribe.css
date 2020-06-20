@@ -1,0 +1,16 @@
+@import url(../background.css);
+@import url(../header.css);
+@import url(../footer.css);
+@import url(./body.css);
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas: "header" "background" "body" "footer";
+}

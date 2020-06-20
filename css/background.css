@@ -1,0 +1,19 @@
+/* Background for the home page */
+.background {
+  grid-area: background;
+  background: url(../assets/background.jpg) center/cover no-repeat;
+  color: #fff;
+  height: 20rem;
+  position: relative;
+}
+
+.background-text {
+  background: #f75;
+  font-size: 1.2rem;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: 1px solid white;
+  width: 35vw;
+}
